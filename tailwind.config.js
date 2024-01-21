@@ -5,7 +5,11 @@ export default {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        rows: "url(./src/assets/rows.svg)",
+      },
+    },
   },
   plugins: [],
 };
