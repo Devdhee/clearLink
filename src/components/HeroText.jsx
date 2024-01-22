@@ -6,6 +6,7 @@ import avatar3 from "../assets/Avatar (2).png";
 import avatar4 from "../assets/Avatar (3).png";
 import avatar5 from "../assets/Avatar (4).png";
 import star from "../assets/Star.svg";
+import Rating from "./Rating";
 
 function HeroText() {
   return (
@@ -41,13 +42,9 @@ function HeroText() {
         </div>
 
         <div>
-          <div className="flex gap-1 mb-1">
-            <img src={star} alt="star" />
-            <img src={star} alt="star" />
-            <img src={star} alt="star" />
-            <img src={star} alt="star" />
-            <img src={star} alt="star" />
-            <p className="ml-2 font-medium text-[#344054] text-base">5.0</p>
+          <div className="flex gap-4 mb-1">
+            <Rating />
+            <p className="font-medium text-[#344054] text-base">5.0</p>
           </div>
           <div>
             <p className="font-medium text-[#475467]">from 3,000+ reviews</p>

@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Partners from "../components/Partners";
+import Testimonials from "../components/Testimonials";
 import WhyChooseUs from "../components/WhyChooseUs";
 
 function HomePage() {
@@ -15,6 +16,10 @@ function HomePage() {
         <Partners />
         <WhyChooseUs />
       </div>
+
+      <section className="bg-[#F9FAFB]">
+        <Testimonials />
+      </section>
     </section>
   );
 }
