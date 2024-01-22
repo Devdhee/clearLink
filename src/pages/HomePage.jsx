@@ -1,3 +1,5 @@
+import ClearPath from "../components/ClearPath";
+import Faqs from "../components/Faqs";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Partners from "../components/Partners";
@@ -6,7 +8,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 
 function HomePage() {
   return (
-    <section className="">
+    <>
       <main className="max-w-[1450px] px-4 mx-auto bg-rows bg-no-repeat bg-cover h-screen pt-[40px]">
         <Navbar />
         <Hero />
@@ -20,7 +22,15 @@ function HomePage() {
       <section className="bg-[#F9FAFB]">
         <Testimonials />
       </section>
-    </section>
+
+      <section>
+        <Faqs />
+      </section>
+
+      <section className="relative">
+        <ClearPath />
+      </section>
+    </>
   );
 }
 
