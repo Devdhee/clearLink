@@ -9,7 +9,7 @@ import star from "../assets/Star.svg";
 
 function HeroText() {
   return (
-    <div className="">
+    <div className="bg-stone-50/40 py-12">
       <h1 className="font-semibold text-[64px] leading-[72px] text-[#1D2939] font-inter mb-[24px]">
         Uniting the world, <br />
         one video call at a time
