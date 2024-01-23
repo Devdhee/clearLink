@@ -4,7 +4,7 @@ import appStore from "../assets/Mobile app store badge.svg";
 
 function Footer() {
   return (
-    <footer className="flex max-w-[1450px] px-4 mx-auto pt-[96px] pb-[48px] gap-[100px]">
+    <footer className="flex max-w-[1450px] px-10 mx-auto pt-[96px] pb-[48px] gap-[100px]">
       <div className="flex flex-col gap-8 max-w-[400px]">
         <Logo />
         <p className="text-lg text-[#475467]">

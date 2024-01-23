@@ -11,13 +11,13 @@ import image4 from "../assets/Image (4).png";
 
 function Testimonials() {
   return (
-    <div className="py-[96px] max-w-[1450px] px-4 mx-auto flex gap-[64px]">
+    <div className="py-[96px] max-w-[1450px] px-10 mx-auto flex gap-[64px]">
       <div className="flex gap-[48px] flex-col flex-1">
         <img src={shopify} alt="shopify logo" className="w-[113px]" />
         <Rating />
-        <h3 className="text-[#101828] text-[44px] leading-[60px] font-medium">
+        <h3 className="text-[#101828] xl:text-[44px] xl:leading-[60px] font-medium lg:text-[40px] lg:leading-[50px]">
           ClearLink has upgraded our remote meetings. High-quality video, screen
-          sharing, and <br /> top-notch security make it essential for our team.
+          sharing, and top-notch security make it essential for our team.
         </h3>
         <div className="flex justify-between">
           <div className="flex gap-4 items-center">
@@ -43,28 +43,12 @@ function Testimonials() {
           </div>
         </div>
       </div>
-      <div className="flex-1 relative max-w-[640px]">
-        <img
-          src={image4}
-          alt=""
-          className="absolute top-[120px] left-[152px]"
-        />
-        <img src={image} alt="" className="absolute  left-[328px] top-[40px]" />
-        <img
-          src={image1}
-          alt=""
-          className="absolute top-[300px] right-[60px]"
-        />
-        <img
-          src={image2}
-          alt=""
-          className="absolute top-[300px] left-[40px] "
-        />
-        <img
-          src={image3}
-          alt=""
-          className="absolute bottom-[20px]  left-[250px]"
-        />
+      <div className="flex-1 relative max-w-[700px] h-[558px]">
+        <img src={image4} alt="" className="absolute top-[20%] left-[25%]" />
+        <img src={image} alt="" className="absolute  right-[23%] top-[6%]" />
+        <img src={image1} alt="" className="absolute top-[53%] right-[5%]" />
+        <img src={image2} alt="" className="absolute top-[53%] left-[6%] " />
+        <img src={image3} alt="" className="absolute top-[53%]  left-[38%]" />
       </div>
     </div>
   );

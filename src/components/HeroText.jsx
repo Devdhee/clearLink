@@ -11,9 +11,9 @@ import Rating from "./Rating";
 function HeroText() {
   return (
     <div className="bg-stone-50/40 py-12 pl-8 max-w-[780px]">
-      <h1 className="font-semibold text-[64px] leading-[72px] text-[#1D2939] font-inter mb-[24px]">
-        Uniting the world, <br />
-        one video call at a time
+      <h1 className="font-semibold text-[61px] max-w-[680px] leading-[72px] text-[#1D2939] font-inter mb-[24px]">
+        Uniting the world,
+        <br /> one video call at a time
       </h1>
 
       <p className=" text-[#667085] text-2xl mb-[48px] max-w-[662px]">

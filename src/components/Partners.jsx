@@ -11,7 +11,7 @@ function Partners() {
       <h3 className="font-medium text-xl text-[#475467] text-center">
         Join 1,500+ companies already video conferencing the ClearLink way
       </h3>
-      <div className="flex gap-[69px] justify-center flex-wrap">
+      <div className="flex gap-[55px] justify-center flex-wrap">
         <img src={brand1} alt="shopify logo" />
         <img src={brand2} alt="coinbase logo" />
         <img src={brand3} alt="dropbox logo" />

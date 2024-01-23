@@ -6,7 +6,7 @@ function Faqs() {
   const [curOpen, setCurOpen] = useState(null);
 
   return (
-    <div className="flex max-w-[1450px] px-4 mx-auto py-[96px] justify-between gap-4">
+    <div className="flex max-w-[1450px] px-10 mx-auto py-[96px] justify-between gap-4">
       <div className="flex flex-col max-w-[547px]">
         <p className="text-[#175CD3] text-lg font-semibold mb-3">Support</p>
         <h4 className="text-[#1D2939] text-5xl font-semibold mb-5">FAQs</h4>

@@ -30,7 +30,7 @@ function Question({ questions, num, curOpen, onOpen }) {
 
       {isOpen && (
         <div className="pb-4">
-          <p className=" text-[#475467] text-lg">{answer}</p>
+          <p className=" text-[#475467] text-lg max-w-[653px]">{answer}</p>
         </div>
       )}
     </div>

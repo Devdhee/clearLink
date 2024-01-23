@@ -16,8 +16,11 @@ function HomePage() {
         <Hero />
       </main>
 
-      <div className="max-w-[1450px] px-4 mx-auto ">
+      <div className="max-w-[1450px] px-10 mx-auto ">
         <Partners />
+      </div>
+
+      <div className="max-w-[1450px] px-10 mx-auto ">
         <WhyChooseUs />
       </div>
 
