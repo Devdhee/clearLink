@@ -5,21 +5,20 @@ import avatar2 from "../assets/Avatar (1).png";
 import avatar3 from "../assets/Avatar (2).png";
 import avatar4 from "../assets/Avatar (3).png";
 import avatar5 from "../assets/Avatar (4).png";
-import star from "../assets/Star.svg";
+
 import Rating from "./Rating";
 
 function HeroText() {
   return (
-    <div className="bg-stone-50/40 py-12 pl-8">
+    <div className="bg-stone-50/40 py-12 pl-8 max-w-[780px]">
       <h1 className="font-semibold text-[64px] leading-[72px] text-[#1D2939] font-inter mb-[24px]">
         Uniting the world, <br />
         one video call at a time
       </h1>
 
-      <p className=" text-[#667085] text-2xl mb-[48px]">
-        Experience the future of communication with ClearLink - <br />
-        where crystal-clear video conferencing meets <br />
-        unparalleled simplicity.
+      <p className=" text-[#667085] text-2xl mb-[48px] max-w-[662px]">
+        Experience the future of communication with ClearLink where
+        crystal-clear video conferencing meets unparalleled simplicity.
       </p>
 
       <div className="flex gap-[20px] mb-[48px]">

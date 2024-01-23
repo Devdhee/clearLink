@@ -9,20 +9,20 @@ function WhyChooseUs() {
         alt="hand drawn arrow"
         className="absolute right-[200px] top-[136px]"
       />
-      <h3 className="text-[#175CD3] font-semibold text-lg mb-3">
+      <h3 className="text-[#175CD3] font-semibold text-lg mb-3 max-w-[300px]">
         The ClearLink Advantage
       </h3>
-      <h4 className="text-[#1D2939] text-[48px] leading-[60px] font-semibold mb-5">
+      <h4 className="text-[#1D2939] text-[48px] leading-[60px] font-semibold mb-5 max-w-[600px]">
         Why choose ClearLink?
       </h4>
-      <p className="w-[842px] text-2xl font-normal text-[#667085] mb-[80px]">
+      <p className="max-w-[842px] text-2xl font-normal text-[#667085] mb-[80px] text-wrap">
         In a world where connection is everything, ClearLink takes the lead. Our
         cutting-edge video conferencing app offers:
       </p>
-      <div className="flex justify-between">
+      <div className="flex justify-between gap-4">
         <div className="grid grid-cols-2 grid-rows-2 gap-x-[40px] gap-y-[60px]">
           {features.map((feature) => (
-            <div key={feature.title} className="w-[360px] h-[228px]">
+            <div key={feature.title} className="max-w-[360px] h-[228px]">
               <img
                 src={feature.image}
                 alt={feature.altText}
@@ -36,7 +36,7 @@ function WhyChooseUs() {
           ))}
         </div>
         <div className="">
-          <img src={groupOfAvatars} alt="" />
+          <img src={groupOfAvatars} alt="" className="max-w-[544px]" />
         </div>
       </div>
     </section>

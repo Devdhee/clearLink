@@ -17,9 +17,9 @@ function Question({ questions, num, curOpen, onOpen }) {
         isOpen ? "bg-[#F9FAFB] border border-[#F9FAFB] rounded-[16px]" : ""
       }`}
     >
-      <div className="flex justify-between gap-2 hover:cursor-pointer ">
+      <div className="flex justify-between gap-6 hover:cursor-pointer items-center">
         <p className="text-[#101828] font-semibold text-xl mb-2">{question}</p>
-        <p className="text-xl font-medium text-brand-blue">
+        <p className="">
           {isOpen ? (
             <img src={minus} alt="minus" />
           ) : (

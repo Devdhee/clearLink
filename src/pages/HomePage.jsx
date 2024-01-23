@@ -1,5 +1,7 @@
 import ClearPath from "../components/ClearPath";
+import Copy from "../components/Copy";
 import Faqs from "../components/Faqs";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Partners from "../components/Partners";
@@ -30,6 +32,9 @@ function HomePage() {
       <section className="relative">
         <ClearPath />
       </section>
+
+      <Footer />
+      <Copy />
     </>
   );
 }

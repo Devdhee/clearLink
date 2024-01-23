@@ -14,24 +14,24 @@ import setting from "../assets/settings-01.svg";
 function HeroImg() {
   return (
     <div className="pr-8 py-12 bg-stone-50/40">
-      <div className="p-[32px]  w-[584px] h-[488px] bg-[#EFF8FF] border-[1px] border-[#B2DDFF] rounded-2xl shadow-[0px_32px_64px_-12px_#10182824]">
+      <div className="p-[32px]  max-w-[584px] bg-[#EFF8FF] border-[1px] border-[#B2DDFF] rounded-2xl shadow-[0px_32px_64px_-12px_#10182824]">
         <div className="grid grid-rows-2 grid-cols-3 gap-5 mb-[40px]">
-          <div className="bg-[#FF9C66]  rounded-2xl h-[160px] w-[160px]">
+          <div className="bg-[#FF9C66]  rounded-2xl  max-w-[160px]">
             <img src={image1} alt="avatar" />
           </div>
-          <div className="bg-[#D6BBFB]  rounded-2xl h-[160px] w-[160px]">
+          <div className="bg-[#D6BBFB]  rounded-2xl  max-w-[160px]">
             <img src={image2} alt="avatar" />
           </div>
-          <div className="bg-[#ACDC79]  rounded-2xl h-[160px] w-[160px]">
+          <div className="bg-[#ACDC79]  rounded-2xl  max-w-[160px]">
             <img src={image3} alt="avatar" />
           </div>
-          <div className="bg-[#B3B8DB]  rounded-2xl h-[160px] w-[160px]">
+          <div className="bg-[#B3B8DB]  rounded-2xl  max-w-[160px]">
             <img src={image4} alt="avatar" />
           </div>
-          <div className="bg-[#FEC84B]  rounded-2xl h-[160px] w-[160px]">
+          <div className="bg-[#FEC84B]  rounded-2xl  max-w-[160px]">
             <img src={image5} alt="avatar" className="w-[94%] mx-auto" />
           </div>
-          <div className="bg-[#FEA3B4]  rounded-2xl h-[160px] w-[160px]">
+          <div className="bg-[#FEA3B4]  rounded-2xl  max-w-[160px]">
             <img src={image6} alt="avatar" />
           </div>
         </div>

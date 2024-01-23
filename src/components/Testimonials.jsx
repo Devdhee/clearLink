@@ -43,7 +43,7 @@ function Testimonials() {
           </div>
         </div>
       </div>
-      <div className="flex-1 relative">
+      <div className="flex-1 relative max-w-[640px]">
         <img
           src={image4}
           alt=""

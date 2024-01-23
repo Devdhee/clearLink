@@ -50,7 +50,7 @@ function ClearPath() {
       <img
         src={image}
         alt="screen mockup"
-        className="absolute right-0 bottom-[0px]"
+        className="absolute right-0 bottom-[0px] max-w-[724px]"
       />
     </div>
   );

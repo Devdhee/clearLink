@@ -6,8 +6,8 @@ function Faqs() {
   const [curOpen, setCurOpen] = useState(null);
 
   return (
-    <div className="flex max-w-[1450px] px-4 mx-auto py-[96px] justify-between">
-      <div className="flex flex-col w-[547px]">
+    <div className="flex max-w-[1450px] px-4 mx-auto py-[96px] justify-between gap-4">
+      <div className="flex flex-col max-w-[547px]">
         <p className="text-[#175CD3] text-lg font-semibold mb-3">Support</p>
         <h4 className="text-[#1D2939] text-5xl font-semibold mb-5">FAQs</h4>
         <p className="text-[#667085] text-2xl">
@@ -19,7 +19,7 @@ function Faqs() {
         </p>
       </div>
 
-      <div className="w-[765px] divide-y-[1px] divide-[#EAECF0] transition-all duration-1000">
+      <div className="max-w-[765px] divide-y-[1px] divide-[#EAECF0] transition-all duration-1000">
         {faqs.map((question, i) => (
           <Question
             key={question.question}
