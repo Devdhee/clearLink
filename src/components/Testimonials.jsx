@@ -19,6 +19,7 @@ function Testimonials() {
           ClearLink has upgraded our remote meetings. High-quality video, screen
           sharing, and top-notch security make it essential for our team.
         </h3>
+
         <div className="flex justify-between">
           <div className="flex gap-4 items-center">
             <img src={avatar} alt="avatar for testimonial" />
