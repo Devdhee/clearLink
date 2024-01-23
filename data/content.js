@@ -1,24 +1,24 @@
 export const features = [
   {
-    image: "../src/assets/video-recorder.svg",
+    image: "/video-recorder.svg",
     altText: "video recorder",
     title: "Crystal-clear HD video",
     text: "No more pixelation or blurriness - just stunning, lifelike clarity that brings your team closer in meetings.",
   },
   {
-    image: "../src/assets/recording-01.svg",
+    image: "/recording-01.svg",
     altText: "audio recording",
     title: "Noise-canceling audio",
     text: "Say goodbye to distractions with our advanced audio tech for crisp, interruption-free conversations.",
   },
   {
-    image: "../src/assets/calendar.svg",
+    image: "/calendar.svg",
     altText: "calendar",
     title: "Scheduling made easy",
     text: "Streamline your agenda with ClearLink's intuitive scheduling. Set up meetings, send invitations, and receive reminders in one place.",
   },
   {
-    image: "../src/assets/lock-unlocked-04.svg",
+    image: "/lock-unlocked-04.svg",
     altText: "lock unlocked",
     title: "Bank-grade security",
     text: "Your privacy is our priority with bank-grade security protocols safeguarding your meetings and data from unwanted intruders.",
