@@ -11,12 +11,12 @@ import Rating from "./Rating";
 function HeroText() {
   return (
     <div className="bg-stone-50/40 py-12 pl-8 max-w-[780px] lg:py-6 lg:pl-0">
-      <h1 className="font-semibold text-6xl max-w-[680px] leading-[72px] text-[#1D2939] font-inter mb-[24px] lg:text-5xl md:text-4xl">
+      <h1 className="font-semibold text-6xl max-w-[680px] leading-[72px] text-[#1D2939] font-inter mb-[24px] xl:text-5xl md:text-4xl">
         Uniting the world,
         <br /> one video call at a time
       </h1>
 
-      <p className=" text-[#667085] text-2xl mb-[48px] max-w-[662px] lg:text-xl lg:max-w-lg md:text-lg">
+      <p className=" text-[#667085] text-2xl mb-[48px] max-w-[662px] xl:text-xl lg:max-w-lg md:text-lg">
         Experience the future of communication with ClearLink where
         crystal-clear video conferencing meets unparalleled simplicity.
       </p>

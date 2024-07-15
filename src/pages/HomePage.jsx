@@ -3,6 +3,7 @@ import Copy from "../components/Copy";
 import Faqs from "../components/Faqs";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import MobileNavBar from "../components/MobileNavBar";
 import Navbar from "../components/Navbar";
 import Partners from "../components/Partners";
 import Testimonials from "../components/Testimonials";
@@ -11,8 +12,9 @@ import WhyChooseUs from "../components/WhyChooseUs";
 function HomePage() {
   return (
     <>
-      <main className="max-w-[1450px] px-4 mx-auto bg-hero-pattern bg-no-repeat bg-cover h-screen lg:h-fit pt-[40px]">
-        {/* <Navbar /> */}
+      <MobileNavBar />
+      <main className="max-w-[1450px] px-4 mx-auto bg-hero-pattern bg-no-repeat bg-cover h-screen lg:h-fit pt-[40px] lg:mt-10">
+        <Navbar />
         <Hero />
       </main>
 

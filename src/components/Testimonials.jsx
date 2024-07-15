@@ -11,11 +11,11 @@ import image4 from "../assets/Image (4).png";
 
 function Testimonials() {
   return (
-    <div className="py-[96px] max-w-[1450px] px-10 mx-auto flex gap-[64px] lg:flex-col lg:gap-5 sm:px-4">
-      <div className="flex gap-[48px] flex-col flex-1 lg:gap-5">
+    <div className="py-[96px] max-w-[1450px] px-10 mx-auto flex gap-[64px] lg:flex-col xl:gap-5 sm:px-4 xl:items-center">
+      <div className="flex gap-[48px] flex-col flex-1 xl:gap-5">
         <img src={shopifyLogo} alt="shopify logo" className="w-[113px]" />
         <Rating />
-        <h3 className="text-[#101828] text-[44px] xl:leading-[60px] font-medium lg:text-2xl md:text-xl lg:max-w-lg">
+        <h3 className="text-[#101828] text-[44px] font-medium xl:text-2xl md:text-xl lg:max-w-lg">
           ClearLink has upgraded our remote meetings. High-quality video, screen
           sharing, and top-notch security make it essential for our team.
         </h3>
@@ -45,8 +45,16 @@ function Testimonials() {
         </div>
       </div>
       <div className="flex-1 relative max-w-[700px] h-[558px] lg:hidden">
-        <img src={image4} alt="" className="absolute top-[20%] left-[25%]" />
-        <img src={image} alt="" className="absolute  right-[23%] top-[6%]" />
+        <img
+          src={image4}
+          alt=""
+          className="absolute top-[20%] left-[25%] xl:left-[15%]"
+        />
+        <img
+          src={image}
+          alt=""
+          className="absolute xl:right-[15%]  right-[23%] top-[6%]"
+        />
         <img src={image1} alt="" className="absolute top-[53%] right-[5%]" />
         <img src={image2} alt="" className="absolute top-[53%] left-[6%] " />
         <img src={image3} alt="" className="absolute top-[53%]  left-[38%]" />

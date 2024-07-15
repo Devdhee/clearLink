@@ -8,19 +8,19 @@ function WhyChooseUs() {
       <img
         src={arrow}
         alt="hand drawn arrow"
-        className="absolute right-[200px] top-[136px] lg:hidden"
+        className="absolute right-[250px] top-[136px] xl:hidden xl:top-[700px]"
       />
       <h3 className="text-[#175CD3] font-semibold text-lg mb-3 max-w-[300px]">
         The ClearLink Advantage
       </h3>
-      <h4 className="text-[#1D2939] text-[48px] leading-[60px] font-semibold mb-5 max-w-[600px] lg:text-3xl md:text-2xl">
+      <h4 className="text-[#1D2939] text-[48px] leading-[60px] font-semibold mb-5 max-w-[600px]  xl:text-3xl md:text-2xl">
         Why choose ClearLink?
       </h4>
-      <p className="max-w-[700px] text-2xl font-normal text-[#667085] mb-[80px] text-wrap lg:text-xl md:text-lg md:mb-10 lg:max-w-lg">
+      <p className="max-w-[700px] text-2xl font-normal text-[#667085] mb-[80px] text-wrap xl:text-xl md:text-lg md:mb-10 xl:max-w-lg">
         In a world where connection is everything, ClearLink takes the lead. Our
         cutting-edge video conferencing app offers:
       </p>
-      <div className="flex items-center justify-between gap-6 lg:flex-col lg:gap-20 md:gap-10 lg:flex-start lg:justify-start">
+      <div className="flex items-center justify-between gap-6 xl:flex-col xl:gap-12 md:gap-10 lg:flex-start lg:justify-start">
         <div className="grid grid-cols-2 grid-rows-2 gap-x-[40px] gap-y-[60px] lg:gap-x-10 md:grid-cols-1 md:grid-rows-4 md:gap-y-4">
           {features.map((feature) => (
             <div key={feature.title} className="max-w-[360px] h-[228px]">

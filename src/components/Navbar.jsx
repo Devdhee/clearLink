@@ -4,7 +4,7 @@ import NavItems from "./NavItems";
 
 function Navbar() {
   return (
-    <nav className="mx-auto bg-[#F2F4F7] px-8 py-4 rounded-[100px] border-[#D0D5DD] border-[1px] flex justify-between">
+    <nav className="mx-auto bg-[#F2F4F7] px-8 py-4 lg:hidden rounded-[100px] border-[#D0D5DD] border-[1px] flex justify-between">
       <Logo />
       <NavItems />
 

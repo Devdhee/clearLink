@@ -13,12 +13,12 @@ function Question({ questions, num, curOpen, onOpen }) {
   return (
     <div
       onClick={handleToggle}
-      className={`p-8 lg:p-4 md:p-2  ${
+      className={`p-8 xl:p-4 md:p-2  ${
         isOpen ? "bg-[#F9FAFB] border border-[#F9FAFB] rounded-[16px]" : ""
       }`}
     >
       <div className="flex items-center justify-between gap-6 hover:cursor-pointer lg:gap-3 md:gap-2">
-        <p className="text-[#101828] font-semibold text-xl mb-2 lg:text-lg md:text-base lg:w-full">
+        <p className="text-[#101828] font-semibold text-xl mb-2 xl:text-lg md:text-base xl:w-full">
           {question}
         </p>
         <p className="lg:inline-block lg:justify-end">
