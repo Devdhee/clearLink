@@ -12,7 +12,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        rows: "url(public/rows.svg)",
+        "hero-pattern": "url(src/assets/Rows.svg)",
       },
     },
   },

@@ -11,7 +11,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 function HomePage() {
   return (
     <>
-      <main className="max-w-[1450px] px-4 mx-auto bg-rows bg-no-repeat bg-cover h-screen lg:h-fit pt-[40px]">
+      <main className="max-w-[1450px] px-4 mx-auto bg-hero-pattern bg-no-repeat bg-cover h-screen lg:h-fit pt-[40px]">
         {/* <Navbar /> */}
         <Hero />
       </main>
