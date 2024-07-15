@@ -1,5 +1,5 @@
 import Rating from "./Rating";
-import shopify from "../assets/Shopify.svg";
+import shopifyLogo from "../assets/Shopify.svg";
 import avatar from "../assets/AvatarTestimonial.png";
 import arrowLeft from "../assets/arrow-left.svg";
 import arrowRight from "../assets/arrow-right.svg";
@@ -13,7 +13,7 @@ function Testimonials() {
   return (
     <div className="py-[96px] max-w-[1450px] px-10 mx-auto flex gap-[64px] lg:flex-col lg:gap-5 sm:px-4">
       <div className="flex gap-[48px] flex-col flex-1 lg:gap-5">
-        <img src={shopify} alt="shopify logo" className="w-[113px]" />
+        <img src={shopifyLogo} alt="shopify logo" className="w-[113px]" />
         <Rating />
         <h3 className="text-[#101828] text-[44px] xl:leading-[60px] font-medium lg:text-2xl md:text-xl lg:max-w-lg">
           ClearLink has upgraded our remote meetings. High-quality video, screen
