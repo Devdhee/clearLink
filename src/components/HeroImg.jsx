@@ -13,9 +13,9 @@ import setting from "../assets/settings-01.svg";
 
 function HeroImg() {
   return (
-    <div className="pr-8 py-12 bg-stone-50/40">
-      <div className="p-[32px]  max-w-[584px] bg-[#EFF8FF] border-[1px] border-[#B2DDFF] rounded-2xl shadow-[0px_32px_64px_-12px_#10182824]">
-        <div className="grid grid-rows-2 grid-cols-3 gap-5 mb-[40px]">
+    <div className="py-12 pr-8 bg-stone-50/40 lg:py-6 lg:pr-0">
+      <div className="p-[32px] max-w-[584px] bg-[#EFF8FF] border-[1px] border-[#B2DDFF] rounded-2xl shadow-[0px_32px_64px_-12px_#10182824] lg:p-4">
+        <div className="grid grid-rows-2 grid-cols-3 gap-5 mb-[40px] lg:mb-4">
           <div className="bg-[#FF9C66]  rounded-2xl  max-w-[160px]">
             <img src={image1} alt="avatar" />
           </div>
@@ -36,7 +36,7 @@ function HeroImg() {
           </div>
         </div>
 
-        <div className="flex justify-center gap-[16px]">
+        <div className="flex justify-center gap-[16px] lg:flex-wrap lg:gap-3 md:gap-2 sm:gap-1">
           <div className="bg-white border-[1px] border-[#D1E9FF] p-[12px] rounded-full">
             <img src={mic} alt="microphone" />
           </div>

@@ -8,9 +8,9 @@ import socialIcon6 from "../assets/Group (2).svg";
 function Copy() {
   return (
     <div className="bg-[#F9FAFB] ">
-      <div className="flex max-w-[1450px] px-10 mx-auto pt-[96px] pb-[48px] justify-between">
+      <div className="flex max-w-[1450px] px-10 mx-auto pt-[96px] pb-[48px] justify-between lg:flex-col lg:gap-4 lg:pt-10 lg:pb-7">
         <p className="text-[#667085]">© 2023 ClearLink. All rights reserved.</p>
-        <div className="flex gap-6">
+        <div className="flex gap-6 lg:gap-2 ">
           <img src={socialIcon5} alt="" className="hover:cursor-pointer" />
           <img src={socialIcon1} alt="" className="hover:cursor-pointer" />
           <img src={socialIcon2} alt="" className="hover:cursor-pointer" />

@@ -4,15 +4,15 @@ import appStore from "../assets/Mobile app store badge.svg";
 
 function Footer() {
   return (
-    <footer className="flex max-w-[1450px] px-10 mx-auto pt-[96px] pb-[48px] gap-[100px]">
+    <footer className="flex max-w-[1450px] px-10 mx-auto pt-[96px] pb-[48px] gap-[100px] lg:flex-col">
       <div className="flex flex-col gap-8 max-w-[400px]">
         <Logo />
-        <p className="text-lg text-[#475467]">
+        <p className="text-lg text-[#0c0c0c]">
           ClearLink is your gateway to effortless, high-quality video
           conferencing. Join us in shaping the future of communication!
         </p>
       </div>
-      <div className="flex gap-6 justify-between w-full">
+      <div className="flex justify-between w-full gap-6 lg:grid lg:grid-cols-3 lg:gap-y-16 md:grid-cols-2">
         <div className="flex flex-col gap-4">
           <p className="text-[#667085] font-semibold">Product</p>
           <ul className="flex flex-col gap-4">

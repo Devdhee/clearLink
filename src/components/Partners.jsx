@@ -7,11 +7,11 @@ import brand6 from "../assets/Automattic svg.svg";
 
 function Partners() {
   return (
-    <section className="flex flex-col gap-12 py-[96px] w-full">
-      <h3 className="font-medium text-xl text-[#475467] text-center">
+    <section className="flex flex-col gap-12 py-[96px] w-full lg:py-16">
+      <h3 className="font-medium text-xl text-[#475467] text-center md:text-lg lg:text-left">
         Join 1,500+ companies already video conferencing the ClearLink way
       </h3>
-      <div className="flex gap-[55px] justify-center flex-wrap">
+      <div className="flex gap-[55px] justify-center flex-wrap lg:gap-6">
         <img src={brand1} alt="shopify logo" />
         <img src={brand2} alt="coinbase logo" />
         <img src={brand3} alt="dropbox logo" />
