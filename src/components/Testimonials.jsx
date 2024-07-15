@@ -1,5 +1,5 @@
 import Rating from "./Rating";
-import shopifyLogo from "../assets/Shopify.svg";
+import shopifyLogo from "../assets/shopify.svg";
 import avatar from "../assets/AvatarTestimonial.png";
 import arrowLeft from "../assets/arrow-left.svg";
 import arrowRight from "../assets/arrow-right.svg";
