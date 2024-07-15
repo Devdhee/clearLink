@@ -12,7 +12,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        rows: "url(./src/assets/rows.svg)",
+        rows: "url(public/rows.svg)",
       },
     },
   },
