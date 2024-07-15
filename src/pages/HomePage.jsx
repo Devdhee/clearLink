@@ -11,7 +11,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 
 function HomePage() {
   return (
-    <>
+    <div className="relative">
       <MobileNavBar />
       <main className="max-w-[1450px] px-4 mx-auto bg-hero-pattern bg-no-repeat bg-cover h-screen lg:h-fit pt-[40px] lg:mt-10">
         <Navbar />
@@ -40,7 +40,7 @@ function HomePage() {
 
       <Footer />
       <Copy />
-    </>
+    </div>
   );
 }
 
